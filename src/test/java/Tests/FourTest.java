@@ -16,9 +16,13 @@ public class FourTest extends BaseClass{
    @Test
 	
 	public void testFour() throws IOException, InterruptedException {
-		System.out.println("TestFour");
 		
-    driver=initializeDriver();
+	   
+	  System.out.println("Karan has updated this code this statement");
+	   
+	   System.out.println("TestFour");
+		
+        driver=initializeDriver();
 		
 		driver.get("https://tutorialsninja.com/demo");
 		Thread.sleep(2000);
